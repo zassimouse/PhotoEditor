@@ -18,9 +18,9 @@ class TabViewController: UITabBarController {
     private func setupTabItems() {
         tabBar.tintColor = .label
         tabBar.backgroundColor = .red
-        let vc1 = ViewController()
-        let vc2 = ViewController()
-        let vc3 = ViewController()
+        let vc1 = EditorViewController()
+        let vc2 = EditorViewController()
+        let vc3 = EditorViewController()
         
         vc1.tabBarItem.image = UIImage(named: "house-alt")
         vc2.tabBarItem.image = UIImage(named: "plus-box")
